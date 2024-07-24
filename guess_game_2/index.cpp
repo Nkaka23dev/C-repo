@@ -5,7 +5,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-// TODO:: User can not choice a number he choose before, unless we won or quited the game and come back
+// TODO: Ensure a user cannot choose a previously selected number unless they win or quit and restart the game.
 
 void print_out(string out_value)
 {
@@ -29,7 +29,7 @@ void play_game()
     int count_guess = 0;
     int guess;
     int random_number = rand() % 251;
-    cout << random_number << endl;
+    // cout << random_number << endl;
     print_out("Game start: ");
     while (true)
     {
