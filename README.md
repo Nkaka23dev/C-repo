@@ -6,9 +6,20 @@
 - After compiling, an `a.out` file will be generated
 - In the same directory run `./a.out` in the terminal. 
 
-### Guess_game:  
+### Guess Games:  
 
-- guess_game_2 uses `array` while guess_game3 uses `vectors`
+- guess_game_2 uses `array` while guess_game3 uses `vectors` and guess_game_4 uses `templatized array`
+
+`array` vs `vectors` vs `templatized array`
+
+| Array            | Vectors            |  Templatized array        
+| -------------    |:-------------:     | :--------------------:
+| Static           | dynamic            | static 
+| decay to pointer | pass by value      | pass by value
+| size is passed   | .size()            | .size()
+| Not              |assign to other vars| assign to other vars
+
+
 
 The fundamentals that C++ introduced, which other programming languages took advantage of, are OOP (Object-Oriented Programming) and Generic Programming [Array or List].
 
