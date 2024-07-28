@@ -2,7 +2,7 @@
 
 - Go into the directory you want to run. e.g `cd collections`
 - Compile `index.cpp` file(It is the bootstrap file in all directories).
-  `g++ index.cpp` or #### `g++ index.cpp -std=c++11`
+  `g++ index.cpp` or  `g++ index.cpp -std=c++11`
 - After compiling, an `a.out` file will be generated
 - In the same directory run `./a.out` in the terminal. 
 
