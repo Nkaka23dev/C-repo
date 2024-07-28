@@ -4,9 +4,11 @@
 - Compile `index.cpp` file(It is the bootstrap file in all directories).
   `g++ index.cpp` or #### `g++ index.cpp -std=c++11`
 - After compiling, an `a.out` file will be generated
-- In the same directory run `./a.out` in the terminal.  
+- In the same directory run `./a.out` in the terminal. 
 
+### Guess_game:  
 
+- guess_game_2 uses `array` while guess_game3 uses `vectors`
 
 The fundamentals that C++ introduced, which other programming languages took advantage of, are OOP (Object-Oriented Programming) and Generic Programming [Array or List].
 
